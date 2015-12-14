@@ -1,114 +1,70 @@
-var MongoClient = require('mongodb').MongoClient;
-var request = require("request")
-var _ = require('lodash')
-var async = require("async")
-var ranking = require('./services/ranking')
-
-function importEvent(event, db) {
-  var col = db.collection('results');
-  event.date = Date.parse(event.date);
-  request(event._link, function(err, resp, body) {
-      var categories = JSON.parse(body).categories
-      var runners = []
-      for(var i in categories) {
-          var category = categories[i]
-          var results = ranking.parseRanking(category   )
-
-          for(var j in results.runners) {
-              var runner = results.runners[j]
-              runners.push({
-                  "eventId": event.id,
-                  "event": event,
-                  "category": category.name,
-                  "rank": runner.rank,
-                  "name": runner.fullName,
-                  "yearOfBirth": runner.yearOfBirth,
-                  "club": runner.club
-              })
-          }
-      }
+var MongoClient = require("MongoDB").MongoClient
+var _ = require("lodash")
 
 
-      if(runners.length <= 0) {
-          console.log("Error in " + event.name)
-          return
-      }
+var url = 'mongodb://oevents:0events1@paulo.mongohq.com:10013/oevents';
+MongoClient.connect(url, function(err, db) {
+    MongoClient.connect("mongodb://oevents:oevents@ds052968.mongolab.com:52968/oevents-new", function(err, db2) {
+        var col = db2.collection("results")
 
-      async.map(runners, function(item, callback) {
-          var index = cleanupName(item.name);
-          db.collection("people").find({'index': index, yearOfBirth: item.yearOfBirth}).toArray(function(err, res) {
-
-              if(res.length > 0) {
-                  item.personId = res[0]._id;
-                  callback(null, item)
-              }
-              else {
-                  db.collection("people").insertOne({name: item.name, yearOfBirth: item.yearOfBirth, index: index}, function(err, res) {
-                      item.personId = res.insertedId;
-                      callback(null, item)
-                  })
-              }
-          })
-      }, function(err, res) {
-      col.insertMany(runners, function(err, res){
-             console.log("Imported Event '" + event.name + "'. Number of runners: " + res.length)
-      })
-     })
-    })
-}
-
-module.exports = {
-    index: function(cb) {
-        var url = 'mongodb://oevents:oevents@ds052968.mongolab.com:52968/oevents-new';
-        MongoClient.connect(url, function(err, db) {
+    db.collection("events").find().toArray(function(err, res) {
+        var events = res;
+        var year = Date.parse('2008-01-01')
+        var cursor = db.collection("results").find({date: {"$lt": year}});
+        cursor.count(function(err, total){
+            console.log("Number of items to import: " + total)
+            var i = 0;
+        cursor.each(function(err, res) {
             if(err) {
-                cb(err, null)
-                return;
+                console.log(err)
+                return
+            }
+            if(!res) {
+                console.log("res is null")
+                return
+            }
+            var event = _.find(events, {"_id": res.eventId});
+            var n = {
+                event: {
+                    name: event.name,
+                    map: event.map,
+                    date: event.date,
+                    source: 'solv',
+                    url: event.urlSource
+                },
+                eventId: event._id,
+                "category": res.category,
+               "rank": res.rank,
+               "name": res.name,
+               "yearOfBirth": res.yearOfBirth,
+               "club": res.club
             }
 
+            var index = cleanupName(n.name);
+            db2.collection("people").find({'index': index, yearOfBirth: n.yearOfBirth}).toArray(function(err, res) {
+                if(res.length > 0) {
+                    n.personId = res[0]._id;
+                    col.insertOne(n)
+                    i++;
+                    console.log("Imported " + i + " of " + total)
 
-            db.collection("importedEvents").deleteMany({})
-            db.collection("results").deleteMany({})
-
-            request('http://ol.zimaa.ch/api/events', function(err, resp, body) {
-                if(err) {
-                    cb(err, null)
-                    return
                 }
-                if(resp.statusCode  != 200) {
-                    cb("Status not 200: " + resp.statusCode , null)
-                    return
+                else {
+                    db2.collection("people").insertOne({name: n.name, yearOfBirth: n.yearOfBirth, index: index}, function(err, res) {
+                        n.personId = res.insertedId;
+                        col.insertOne(n)
+                        i++;
+                        console.log("Imported " + i + " of " + total)
+
+                    })
                 }
+            })
+        })
+        })
+    })
+})
+});
 
-                var events = JSON.parse(body)
-                db.collection("importedEvents").find().toArray(function(err, res) {
-                    //db.collection("importedEvents").insertOne({id: 3619, date: new Date()})
-
-                    for(var i in events.events) {
-                        (function() {
-
-                            var event = events.events[i]
-                            if(!_.find(res, {id: event.id})) {
-                                db.collection("importedEvents").insertOne({id: event.id, date: new Date()}, function(err, res) {
-                                    console.log("Start import " + event.name)
-                                    importEvent(event, db)
-                                })
-                            }
-                            else {
-                                console.log("Skip "+ event.name)
-                            }
-                        })()
-                    }
-                    console.log("Finish importing events.")
-
-                })
-                return
-                importEvent(events.events[0], db)
-                //db.close();
-            });
-        });
-    }
-}
 
 
 function cleanupName(name) {
