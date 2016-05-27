@@ -2,7 +2,7 @@ var MongoClient = require("MongoDB").MongoClient
 var _ = require("lodash")
 
 
-var url = 'mongodb://oevents:0events1@paulo.mongohq.com:10013/oevents';
+var url = 'mongodb://oevents-mongo/oevents';
 MongoClient.connect(url, function(err, db) {
     MongoClient.connect("mongodb://oevents:oevents@ds052968.mongolab.com:52968/oevents-new", function(err, db2) {
         var col = db2.collection("results")

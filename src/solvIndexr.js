@@ -59,7 +59,7 @@ function importEvent(event, db) {
 
 module.exports = {
     index: function(cb) {
-        var url = 'mongodb://oevents:oevents@ds052968.mongolab.com:52968/oevents-new';
+        var url = 'mongodb://oevents-mongo/oevents-new';
         MongoClient.connect(url, function(err, db) {
             if(err) {
                 cb(err, null)
