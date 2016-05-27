@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
   },
   "author": "",
   "license": "MIT",
@@ -13,6 +14,7 @@
     "async": "^1.5.0",
     "lodash": "^3.10.1",
     "mongodb": "^2.1.0",
-    "request": "^2.67.0"
+    "request": "^2.67.0",
+    "node-schedule": ""
   }
 }
