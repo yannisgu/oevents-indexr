@@ -24,7 +24,7 @@ function importEvent(event, db) {
                   "name": runner.fullName,
                   "yearOfBirth": runner.yearOfBirth,
                   "club": runner.club,
-                  "index": cleanupName(item.name)
+                  "index": cleanupName(runner.fullName) + "$$$" + runner.yearOfBirth
               })
           }
       }
