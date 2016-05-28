@@ -23,7 +23,8 @@ function importEvent(event, db) {
                   "rank": runner.rank,
                   "name": runner.fullName,
                   "yearOfBirth": runner.yearOfBirth,
-                  "club": runner.club
+                  "club": runner.club,
+                  "index": cleanupName(item.name)
               })
           }
       }
@@ -33,33 +34,15 @@ function importEvent(event, db) {
           console.log("Error in " + event.name)
           return
       }
-
-      async.map(runners, function(item, callback) {
-          var index = cleanupName(item.name);
-          db.collection("people").find({'index': index, yearOfBirth: item.yearOfBirth}).toArray(function(err, res) {
-
-              if(res.length > 0) {
-                  item.personId = res[0]._id;
-                  callback(null, item)
-              }
-              else {
-                  db.collection("people").insertOne({name: item.name, yearOfBirth: item.yearOfBirth, index: index}, function(err, res) {
-                      item.personId = res.insertedId;
-                      callback(null, item)
-                  })
-              }
-          })
-      }, function(err, res) {
       col.insertMany(runners, function(err, res){
              console.log("Imported Event '" + event.name + "'. Number of runners: " + res.length)
       })
-     })
     })
 }
 
 module.exports = {
     index: function(cb) {
-        var url = 'mongodb://oevents-mongo/oevents-new';
+        var url = 'mongodb://oevents-mongo/oevents';
         MongoClient.connect(url, function(err, db) {
             if(err) {
                 cb(err, null)
