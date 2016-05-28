@@ -49,10 +49,6 @@ module.exports = {
                 return;
             }
 
-
-            db.collection("importedEvents").deleteMany({})
-            db.collection("results").deleteMany({})
-
             request('http://ol.zimaa.ch/api/events', function(err, resp, body) {
                 if(err) {
                     cb(err, null)
