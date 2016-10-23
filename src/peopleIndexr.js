@@ -12,7 +12,9 @@ module.exports = {
 
           db.collection("results").find({"personId": { "$exists" : false }}).toArray()
           .then((results) => {
-            indexResults(results, 0, db)
+            if(results.length > 0) {
+              indexResults(results, 0, db)
+            }
           })
         })
     }

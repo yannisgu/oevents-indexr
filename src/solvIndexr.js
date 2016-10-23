@@ -79,10 +79,8 @@ module.exports = {
                         })()
                     }
                     console.log("Finish importing events.")
-
+                    cb()
                 })
-                return importEvent(events.events[0], db)
-                //db.close();
             });
         });
     }
