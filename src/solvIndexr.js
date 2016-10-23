@@ -3,6 +3,7 @@ var request = require("request")
 var _ = require('lodash')
 var async = require("async")
 var ranking = require('./services/ranking')
+var config = require('../config')
 
 function importEvent(event, db) {
   var col = db.collection('results');
@@ -42,8 +43,8 @@ function importEvent(event, db) {
 
 module.exports = {
     index: function(cb) {
-        var url = 'mongodb://oevents-mongo/oevents';
-        MongoClient.connect(url, function(err, db) {
+        
+        MongoClient.connect(config.dbUrl, function(err, db) {
             if(err) {
                 cb(err, null)
                 return;
@@ -81,8 +82,7 @@ module.exports = {
                     console.log("Finish importing events.")
 
                 })
-                return
-                importEvent(events.events[0], db)
+                return importEvent(events.events[0], db)
                 //db.close();
             });
         });
