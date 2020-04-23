@@ -1,3 +1,3 @@
 {
-    "dbUrl": "mongodb://oevents-mongo/oevents"
+    "dbUrl": "mongodb://oevents-mongo-1.8928eed7.cont.dockerapp.io:32773/oevents"
 }

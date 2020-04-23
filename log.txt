@@ -1,0 +1,371 @@
+Finish importing events.
+undefined
+SOLV update done, now people update...
+Start import Engadiner Ski-OL
+Start import 2. Zuger Samichlaus-OL
+Start import Tomila
+Start import Schlusslauf ROLV NOS
+Start import Basler Einzel-OL
+Start import 13. TMO
+Start import Wiler OL
+Start import bussola ol / ASJM Schlusslauf
+Start import ZJOM Schlusslauf
+Start import biel.seeland-OL
+Start import Emmentaler-OL
+Start import Zurzacher OL
+Start import Arge Alp Einzel
+Start import Rafzerfelder OL
+Start import Arge Alp Staffel
+Start import Arge Alp Staffel
+Start import Schlusslauf Bike-O Swiss Cup
+Start import 9.Nat.A Solothurn
+Start import EYOC (Sprint)
+Start import 9.Nat.A Solothurn
+Start import EYOC (Langdistanz)
+Start import Open Junior Match
+Start import Weltcup Final/PostFinance Sprint
+Start import Zuercher OL sCOOL
+Start import 12. TMO CTCO
+Start import Weltcup Lauf 12 Mittel Distanz
+Start import Zuschauerlauf Worldcup
+Start import Variant 5-OL
+Start import Hindelbanker Nacht-OL
+Start import Bezirsks-OL Pfaeffikon/Hinwil
+Start import Wisliger Schueler OL
+Start import 8.Nat.A Lukmanier
+Start import 7.Nat.A Campra
+Start import Thurgauer sCOOL-Cup
+Start import 9. TMO
+Start import Freiburger Einzel-OL / 4. FR OL-Weekend
+Start import Harzer-Staffel Zwi.zt.
+Start import 33. Therwiler-OL
+Start import Nuerensdorfer OL
+Start import Argus Nacht-Staffel - Strecken
+Start import Argus Nacht-Staffel - Zwi.zt.
+Start import 6. Nationaler OL/Baselbieter Einzel OL
+Start import Bike-O Neuchatel (9.Bike-O Swiss Cup)
+Start import 8. TMO
+Start import Freiburger Nacht OL
+Start import Zuerifuchs
+Start import OL-SM Langdistanz
+Start import OL-SM Sprintdistanz
+Start import 5. Lauf impOLs Cup
+Start import 3. Hindelbanker Abendlauf
+Start import 5. Zuger Schwyzer Abend OL
+Start import Urseller-OL
+Start import Rymenzburger OL
+Start import Engelburger OL
+Start import Berner Oberlaender Staffel Strecken
+Start import 4. Lauf impOLs Cup
+Start import 5.Nat.A Schuepfheim
+Start import Schweiz. OL-Jugendcup/Staffel Strecken
+Start import 3. Lauf impOLs Cup
+Start import Bike-O SM
+Start import Oristaler-OL
+Start import CO Jura neuchatelois
+Start import Baselbieter Nacht-OL
+Start import Bike-O Bern (7. Bike-O Swiss Cup)
+Start import 18. Ostschweizer OL / Offen
+Start import Suhrer Schueler/Sie+Er OL
+Start import 2. Lauf impOLs Cup
+Start import 4. Zuger Schwyzer Abend OL
+Start import 2. Hindelbanker Abendlauf
+Start import Fricktaler Abend-OL
+Start import Aargauer 3-Tage-OL - E3
+Start import Aargauer 3-Tage-OL - E2
+Start import Aargauer 3-Tage-OL - E1
+Start import 1. Hindelbanker Abendlauf
+Start import Buendner OL-Weekend - E3
+Start import Buendner OL-Weekend - E2
+Start import Buendner OL-Weekend - E1
+Start import Pfaeffiker OL
+Start import KidsStaffel Strecken
+Start import Schweizer 5er-Staffel Strecken
+Start import 3. Zuger Schwyzer Abend OL
+Start import 4. Berner-Abend-OL
+Start import Seetaler-Abend-OL 
+Start import Baselbieter Abend-OL
+Start import 4. Nationaler OL
+Start import 3. Nationaler OL
+Start import 1. Lauf impOLs Cup
+Start import 3. Berner-Abend-OL
+Start import Basler Abend-OL
+Start import Sensler OL
+Start import Welsiker (Bike) OL
+Start import Winterthurer Bike-O
+Start import Teamathlon
+Start import 2. Berner Abend-OL
+Start import 2. Zuger Schwyzer Abend OL
+Start import WM-Testlauf 6 Langdistanz
+Start import Bodensee-Sprint-Cup Viertelfinal
+Start import Bodensee-Sprint-Cup Final
+Start import 2.Nat.A Romanshorn
+Start import Bodensee-Sprint-Cup Halbfinal
+Start import 3. Fragori
+Start import WM-Testlauf 5 Mittel
+Start import 1. Berner-Abend-OL
+Start import Schaffhauser OL
+Start import 7. TMO
+Start import regiObike
+Start import Junioren Testlauf C Sprint
+Start import Lysser-OL
+Start import 2. Fragori
+Start import Zuger Schwyzer Abend OL
+Start import Junioren Testlauf B Long
+Start import Buelacher OL
+Start import Junioren Testlauf A Middle
+Start import 1. Fragori
+Start import Galgener OL
+Start import 6. TMO
+Start import Suhrentaler OL / Aarauer Stadt OL
+Start import Baselbieter Dorf-OL
+Start import Saeuliaemtler Bike-O
+Start import Murtner-OL
+Start import 24 Stunden-OL Schweiz
+Start import Oltner-Stadt-OL
+Start import CO Valaisanne
+Start import 5. TMO
+Start import 20. CO de la Riviera
+Start import 19. CO de la Riviera
+Start import Staffetta Sele Strecken
+Start import CO Vaudoise
+Start import Jura 3er-Staffel Strecken
+Start import Luzerner sCOOL-Cup
+Start import Innerschwyzer OL
+Start import Bucheggberger-OL
+Start import ROLV-Staffel - Zwi.zt.
+Start import ROLV-Staffel Strecken
+Start import Regio OL
+Start import Seelisberger OL
+Start import 4. TMO
+Start import St. Galler OL
+Start import Hindelbanker-OL
+Start import Seetaler Schueler OL
+Start import 1.Nat.A Huettwilen
+Start import Mitteldistanz-SM
+Start import Huttwiler-OL
+Start import 3. TMO
+Start import Wisliger OL
+Start import NOM
+Start import bussola schueler ol
+Start import Herzogenbuchser OL
+Start import 2. TMO
+Start import Zuercher Oberlaender OL
+Start import Regionaler Badener OL
+Start import OL-Galoppen
+Start import norska-Nacht-OL
+Start import Stoeff Memorial OL
+Start import Thuner-OL
+Start import Osterstaffel Strecken
+Start import Muenchenbuchser Nacht-OL
+Start import 2 Giorni C.O. Ticino
+Start import Kreuzlinger OL
+Start import 2 Giorni Open Do
+Start import Langenthaler-OL
+Start import 2 Giorni Open Sa
+Start import Winterthurer OL
+Start import Oberaargauer-Nacht-OL
+Start import Fricktaler Einzel-OL
+Start import Pfaeffiker Nacht-OL
+Start import soubaere-OL
+Start import Saeuliaemtler OL
+Start import Swiss Billygoat Run
+Start import muba-OL
+Start import Galgener Nacht/Winter-OL
+Start import Hamme OL
+Start import Ski-OL Sparenmoos
+Start import Ski-OL SM Lang
+Start import Treslag-Staffel Strecken
+Start import Ski-OL EM Middle
+Start import Ski-OL Open Middle
+Start import Ski-OL Masters Long 2
+Start import Ski-OL Open Long
+Start import Ski-OL Masters Long 1
+Start import Ski-OL EM Long distance
+Start import Ski-OL EM Sprint
+Start import Ski-OL Open Sprint
+Start import Effretiker-OL
+Imported Event 'Zuercher OL sCOOL'. Number of runners: 29
+Imported Event 'Baselbieter Nacht-OL'. Number of runners: 30
+Imported Event 'Variant 5-OL'. Number of runners: 88
+Imported Event '2 Giorni Open Sa'. Number of runners: 47
+Imported Event 'Ski-OL Open Long'. Number of runners: 24
+Imported Event '2. Zuger Samichlaus-OL'. Number of runners: 55
+No runners in Ski-OL SM Lang
+Imported Event 'Argus Nacht-Staffel - Zwi.zt.'. Number of runners: 86
+No runners in Argus Nacht-Staffel - Strecken
+Imported Event 'Freiburger Nacht OL'. Number of runners: 65
+Imported Event 'Berner Oberlaender Staffel Strecken'. Number of runners: 78
+Imported Event 'Bike-O Neuchatel (9.Bike-O Swiss Cup)'. Number of runners: 66
+Imported Event '9.Nat.A Solothurn'. Number of runners: 149
+Imported Event 'Open Junior Match'. Number of runners: 51
+Imported Event 'Zuerifuchs'. Number of runners: 92
+Imported Event '4. Zuger Schwyzer Abend OL'. Number of runners: 74
+Imported Event 'Ski-OL EM Sprint'. Number of runners: 110
+Imported Event '1. Fragori'. Number of runners: 107
+Imported Event 'ZJOM Schlusslauf'. Number of runners: 117
+Imported Event '2. Zuger Schwyzer Abend OL'. Number of runners: 113
+Imported Event 'Harzer-Staffel Zwi.zt.'. Number of runners: 104
+No runners in Staffetta Sele Strecken
+Imported Event '5. Lauf impOLs Cup'. Number of runners: 94
+Imported Event 'Wisliger Schueler OL'. Number of runners: 79
+Imported Event 'Bezirsks-OL Pfaeffikon/Hinwil'. Number of runners: 94
+Imported Event 'Galgener Nacht/Winter-OL'. Number of runners: 67
+Imported Event 'Basler Abend-OL'. Number of runners: 135
+Imported Event 'KidsStaffel Strecken'. Number of runners: 108
+Imported Event '3. Zuger Schwyzer Abend OL'. Number of runners: 82
+Imported Event 'Engadiner Ski-OL'. Number of runners: 131
+Imported Event 'Pfaeffiker Nacht-OL'. Number of runners: 117
+Imported Event 'Weltcup Lauf 12 Mittel Distanz'. Number of runners: 98
+Imported Event 'Ski-OL EM Middle'. Number of runners: 112
+Imported Event 'Thurgauer sCOOL-Cup'. Number of runners: 106
+Imported Event 'Hamme OL'. Number of runners: 43
+Imported Event '2 Giorni Open Do'. Number of runners: 28
+Imported Event 'Ski-OL EM Long distance'. Number of runners: 102
+Imported Event '2. Hindelbanker Abendlauf'. Number of runners: 177
+Imported Event '20. CO de la Riviera'. Number of runners: 173
+Imported Event 'Luzerner sCOOL-Cup'. Number of runners: 178
+Imported Event 'Seetaler-Abend-OL '. Number of runners: 200
+Imported Event 'Bike-O Bern (7. Bike-O Swiss Cup)'. Number of runners: 177
+Imported Event 'Regio OL'. Number of runners: 113
+Imported Event 'CO Valaisanne'. Number of runners: 127
+Imported Event 'Ski-OL Open Sprint'. Number of runners: 111
+Imported Event '18. Ostschweizer OL / Offen'. Number of runners: 21
+Imported Event 'Freiburger Einzel-OL / 4. FR OL-Weekend'. Number of runners: 173
+Imported Event 'Weltcup Final/PostFinance Sprint'. Number of runners: 80
+Imported Event 'Hindelbanker Nacht-OL'. Number of runners: 121
+Imported Event 'Swiss Billygoat Run'. Number of runners: 68
+Imported Event 'norska-Nacht-OL'. Number of runners: 137
+Imported Event '2. Lauf impOLs Cup'. Number of runners: 109
+Imported Event 'OL-Galoppen'. Number of runners: 210
+Imported Event 'Oristaler-OL'. Number of runners: 232
+Imported Event '4. Lauf impOLs Cup'. Number of runners: 172
+Imported Event '33. Therwiler-OL'. Number of runners: 165
+Imported Event '1. Lauf impOLs Cup'. Number of runners: 188
+Imported Event 'Zuschauerlauf Worldcup'. Number of runners: 118
+Imported Event 'Suhrer Schueler/Sie+Er OL'. Number of runners: 249
+Imported Event '3. Hindelbanker Abendlauf'. Number of runners: 143
+No runners in Treslag-Staffel Strecken
+Imported Event '12. TMO CTCO'. Number of runners: 282
+Imported Event 'Muenchenbuchser Nacht-OL'. Number of runners: 174
+Imported Event 'Baselbieter Dorf-OL'. Number of runners: 108
+Imported Event 'Baselbieter Abend-OL'. Number of runners: 106
+Imported Event '5. Zuger Schwyzer Abend OL'. Number of runners: 105
+Imported Event 'Junioren Testlauf A Middle'. Number of runners: 93
+Imported Event 'Ski-OL Masters Long 1'. Number of runners: 148
+Imported Event 'Oberaargauer-Nacht-OL'. Number of runners: 156
+Imported Event 'Ski-OL Masters Long 2'. Number of runners: 142
+Imported Event 'Seelisberger OL'. Number of runners: 338
+Imported Event '3. Lauf impOLs Cup'. Number of runners: 182
+Imported Event 'Basler Einzel-OL'. Number of runners: 228
+Imported Event 'Fricktaler Abend-OL'. Number of runners: 287
+Imported Event 'muba-OL'. Number of runners: 299
+Imported Event 'Seetaler Schueler OL'. Number of runners: 328
+Imported Event '1. Hindelbanker Abendlauf'. Number of runners: 226
+Imported Event 'Zuger Schwyzer Abend OL'. Number of runners: 108
+Imported Event 'Schlusslauf Bike-O Swiss Cup'. Number of runners: 123
+Imported Event 'ROLV-Staffel - Zwi.zt.'. Number of runners: 161
+Imported Event 'bussola ol / ASJM Schlusslauf'. Number of runners: 293
+Imported Event 'Zurzacher OL'. Number of runners: 328
+Imported Event '3. TMO'. Number of runners: 309
+Imported Event '3. Berner-Abend-OL'. Number of runners: 243
+Imported Event 'CO Vaudoise'. Number of runners: 171
+Imported Event 'CO Jura neuchatelois'. Number of runners: 129
+Imported Event '19. CO de la Riviera'. Number of runners: 165
+No runners in Arge Alp Staffel
+Imported Event 'Saeuliaemtler Bike-O'. Number of runners: 112
+Imported Event 'Junioren Testlauf B Long'. Number of runners: 94
+Imported Event '2. TMO'. Number of runners: 342
+Imported Event 'Sensler OL'. Number of runners: 372
+No runners in ROLV-Staffel Strecken
+No runners in Bodensee-Sprint-Cup Halbfinal
+Imported Event '9. TMO'. Number of runners: 293
+Imported Event 'Jura 3er-Staffel Strecken'. Number of runners: 260
+Imported Event 'Engelburger OL'. Number of runners: 340
+Imported Event 'Junioren Testlauf C Sprint'. Number of runners: 118
+Imported Event 'Schweiz. OL-Jugendcup/Staffel Strecken'. Number of runners: 200
+Imported Event '4. Berner-Abend-OL'. Number of runners: 250
+Imported Event '5. TMO'. Number of runners: 345
+Imported Event 'regiObike'. Number of runners: 100
+Imported Event 'WM-Testlauf 5 Mittel'. Number of runners: 42
+Imported Event 'Bike-O SM'. Number of runners: 192
+Imported Event 'Buendner OL-Weekend - E1'. Number of runners: 520
+Imported Event 'EYOC (Langdistanz)'. Number of runners: 356
+Imported Event 'Huttwiler-OL'. Number of runners: 437
+Imported Event '1. Berner-Abend-OL'. Number of runners: 174
+Imported Event '2. Fragori'. Number of runners: 132
+Imported Event '8. TMO'. Number of runners: 208
+Imported Event 'biel.seeland-OL'. Number of runners: 399
+Imported Event 'Tomila'. Number of runners: 303
+Imported Event 'EYOC (Sprint)'. Number of runners: 358
+Imported Event 'bussola schueler ol'. Number of runners: 237
+Imported Event 'Lysser-OL'. Number of runners: 191
+Imported Event 'Schlusslauf ROLV NOS'. Number of runners: 346
+Imported Event 'Urseller-OL'. Number of runners: 383
+Imported Event 'Wisliger OL'. Number of runners: 381
+No runners in Bodensee-Sprint-Cup Final
+No runners in Bodensee-Sprint-Cup Viertelfinal
+Imported Event 'Pfaeffiker OL'. Number of runners: 474
+Imported Event 'Kreuzlinger OL'. Number of runners: 394
+Imported Event 'Teamathlon'. Number of runners: 13
+Imported Event '2. Berner Abend-OL'. Number of runners: 169
+Imported Event 'Emmentaler-OL'. Number of runners: 512
+Imported Event 'WM-Testlauf 6 Langdistanz'. Number of runners: 38
+Imported Event 'Buendner OL-Weekend - E3'. Number of runners: 509
+Imported Event '6. TMO'. Number of runners: 306
+Imported Event 'Ski-OL Open Middle'. Number of runners: 57
+Imported Event 'Wiler OL'. Number of runners: 456
+Imported Event '3. Fragori'. Number of runners: 155
+Imported Event '7. TMO'. Number of runners: 290
+Imported Event 'Ski-OL Sparenmoos'. Number of runners: 66
+Imported Event 'Stoeff Memorial OL'. Number of runners: 461
+Imported Event '2 Giorni C.O. Ticino'. Number of runners: 371
+Imported Event 'Winterthurer OL'. Number of runners: 435
+Imported Event 'Langenthaler-OL'. Number of runners: 542
+Imported Event 'Fricktaler Einzel-OL'. Number of runners: 418
+Imported Event 'Rafzerfelder OL'. Number of runners: 477
+Imported Event '13. TMO'. Number of runners: 314
+Imported Event 'Winterthurer Bike-O'. Number of runners: 151
+Imported Event 'Zuercher Oberlaender OL'. Number of runners: 465
+Imported Event 'NOM'. Number of runners: 448
+Imported Event 'Rymenzburger OL'. Number of runners: 406
+Imported Event '4. TMO'. Number of runners: 343
+Imported Event 'Regionaler Badener OL'. Number of runners: 417
+Imported Event 'Arge Alp Einzel'. Number of runners: 560
+Imported Event 'soubaere-OL'. Number of runners: 434
+Imported Event 'Osterstaffel Strecken'. Number of runners: 190
+Imported Event 'St. Galler OL'. Number of runners: 437
+Imported Event 'Thuner-OL'. Number of runners: 503
+Imported Event 'Galgener OL'. Number of runners: 541
+Imported Event 'Buendner OL-Weekend - E2'. Number of runners: 606
+Imported Event 'Nuerensdorfer OL'. Number of runners: 494
+Imported Event 'Murtner-OL'. Number of runners: 460
+Imported Event 'Saeuliaemtler OL'. Number of runners: 636
+Imported Event 'Schweizer 5er-Staffel Strecken'. Number of runners: 726
+Imported Event 'Welsiker (Bike) OL'. Number of runners: 732
+Imported Event 'Arge Alp Staffel'. Number of runners: 549
+Imported Event 'Innerschwyzer OL'. Number of runners: 570
+Imported Event 'Buelacher OL'. Number of runners: 445
+Imported Event 'Aargauer 3-Tage-OL - E1'. Number of runners: 923
+Imported Event 'Bucheggberger-OL'. Number of runners: 687
+Imported Event 'Schaffhauser OL'. Number of runners: 599
+Imported Event 'Oltner-Stadt-OL'. Number of runners: 701
+Imported Event 'Herzogenbuchser OL'. Number of runners: 738
+Imported Event 'Suhrentaler OL / Aarauer Stadt OL'. Number of runners: 789
+Imported Event 'Effretiker-OL'. Number of runners: 752
+Imported Event 'Hindelbanker-OL'. Number of runners: 758
+Imported Event 'Aargauer 3-Tage-OL - E3'. Number of runners: 936
+Imported Event '6. Nationaler OL/Baselbieter Einzel OL'. Number of runners: 974
+Imported Event '5.Nat.A Schuepfheim'. Number of runners: 1323
+Imported Event '9.Nat.A Solothurn'. Number of runners: 1156
+Imported Event 'Aargauer 3-Tage-OL - E2'. Number of runners: 1013
+Imported Event 'Mitteldistanz-SM'. Number of runners: 1333
+Imported Event 'OL-SM Sprintdistanz'. Number of runners: 1523
+Imported Event '24 Stunden-OL Schweiz'. Number of runners: 1569
+Imported Event '1.Nat.A Huettwilen'. Number of runners: 1472
+Imported Event '8.Nat.A Lukmanier'. Number of runners: 1734
+Imported Event '7.Nat.A Campra'. Number of runners: 1760
+Imported Event 'OL-SM Langdistanz'. Number of runners: 1677
+Imported Event '3. Nationaler OL'. Number of runners: 1596
+Imported Event '2.Nat.A Romanshorn'. Number of runners: 1197
+Imported Event '4. Nationaler OL'. Number of runners: 1633

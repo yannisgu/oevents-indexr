@@ -5,38 +5,51 @@ var async = require("async")
 var ranking = require('./services/ranking')
 var config = require('../config')
 
-function importEvent(event, db) {
-  var col = db.collection('results');
-  event.date = Date.parse(event.date);
-  request(event._link, function(err, resp, body) {
-      var categories = JSON.parse(body).categories
-      var runners = []
-      for(var i in categories) {
-          var category = categories[i]
-          var results = ranking.parseRanking(category   )
+function importEvent(event, db, cb) {
+    var col = db.collection('results');
+    event.date = Date.parse(event.date);
+    request(event._link, function(err, resp, body) {
+        if(err) {
+          cb(err)
+          return;
+        }
 
-          for(var j in results.runners) {
-              var runner = results.runners[j]
-              runners.push({
-                  "eventId": event.id,
-                  "event": event,
-                  "category": category.name,
-                  "rank": runner.rank,
-                  "name": runner.fullName,
-                  "yearOfBirth": runner.yearOfBirth,
-                  "club": runner.club
-              })
-          }
-      }
+        var categories;
+        try {
+          categories = JSON.parse(body).categories
+        }
+        catch(error) {
+          cb(error)
+          return;
+        }
+        var runners = []
+        for(var i in categories) {
+            var category = categories[i]
+            var results = ranking.parseRanking(category   )
+
+            for(var j in results.runners) {
+                var runner = results.runners[j]
+                runners.push({
+                    "eventId": event.id,
+                    "event": event,
+                    "category": category.name,
+                    "rank": runner.rank,
+                    "name": runner.fullName,
+                    "yearOfBirth": runner.yearOfBirth,
+                    "club": runner.club
+                })
+            }
+        }
 
 
-      if(runners.length <= 0) {
-          console.log("Error in " + event.name)
-          return
-      }
-      col.insertMany(runners, function(err, res){
-             console.log("Imported Event '" + event.name + "'. Number of runners: " + res.length)
-      })
+        if(runners.length <= 0) {
+            console.log("No runners in " + event.name)
+            return
+        }
+        col.insertMany(runners, function(err, res){
+                console.log("Imported Event '" + event.name + "'. Number of runners: " + res.ops.length)
+                cb(err)
+        })
     })
 }
 
@@ -49,7 +62,7 @@ module.exports = {
                 return;
             }
 
-            request('http://ol.zimaa.ch/api/events', function(err, resp, body) {
+            request('http://localhost:3001/api/events?year=2016', function(err, resp, body) {
                 if(err) {
                     cb(err, null)
                     return
@@ -61,16 +74,24 @@ module.exports = {
 
                 var events = JSON.parse(body)
                 db.collection("importedEvents").find().toArray(function(err, res) {
-                    //db.collection("importedEvents").insertOne({id: 3619, date: new Date()})
 
                     for(var i in events.events) {
                         (function() {
 
                             var event = events.events[i]
                             if(!_.find(res, {id: event.id})) {
-                                db.collection("importedEvents").insertOne({id: event.id, date: new Date()}, function(err, res) {
+                            //if(true) {
+                                db.collection("importedEvents").insertOne({id: event.id, date: new Date(), success: 0}, function(err, res) {
                                     console.log("Start import " + event.name)
-                                    importEvent(event, db)
+                                    importEvent(event, db, function(error) {
+                                      if(error) {
+                                        console.log("Failed to import " + event.name)
+                                        console.error(error)
+                                      }
+                                      else {
+                                        db.collection("importedEvents").update({_id: res.ops[0]._id}, {$set: {success: 1}})
+                                      }
+                                    })
                                 })
                             }
                             else {

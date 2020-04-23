@@ -4,6 +4,7 @@ var MongoClient = require('mongodb').MongoClient;
 
 module.exports = {
     index: function(cb) {
+        console.log('Start people indexing...')
         MongoClient.connect(config.dbUrl, function(err, db) {
           if(err) {
             cb(err, null)
@@ -13,6 +14,7 @@ module.exports = {
           db.collection("results").find({"personId": { "$exists" : false }}).toArray()
           .then((results) => {
             if(results.length > 0) {
+              console.log('Number of people to index: ' + results.length)
               indexResults(results, 0, db)
             }
           })
@@ -23,8 +25,8 @@ module.exports = {
 function indexResults(results, currentIndex, db) {
   const result = results[currentIndex]
   
-  const indexValue = cleanupName(result.name)
-  console.log(indexValue)
+  const indexValue = cleanupName(result.name) + "$$$" + result.yearOfBirth
+
   return db.collection("people").find({"index": indexValue}).toArray()
   .then((people) => {
     if(people.length > 0) {
