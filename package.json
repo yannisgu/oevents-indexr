@@ -13,7 +13,7 @@
     "array.prototype.find": "^1.0.0",
     "async": "^1.5.0",
     "lodash": "^3.10.1",
-    "mongodb": "^2.1.0",
+    "mongodb": "^3.6.1",
     "request": "^2.67.0",
     "node-schedule": ""
   }
